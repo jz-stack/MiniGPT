@@ -1,0 +1,32 @@
+{
+  "name": "minigpt-kb-backend",
+  "version": "1.0.0",
+  "description": "MiniGPT-KB 精简版 RAG 知识库问答后端（Node.js + Express）",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "tsx watch --no-warnings src/index.ts",
+    "start": "tsx --no-warnings src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck && tsx test/splitter.test.mts && tsx test/db.test.mts && tsx test/api.test.mts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "iconv-lite": "^0.7.3",
+    "mammoth": "^1.8.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.65.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.20.5",
+    "@types/pdf-parse": "^1.1.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}

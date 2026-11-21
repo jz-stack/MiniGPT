@@ -37,3 +37,6 @@ pnpm-debug.log*
 uploads/
 data/
 *.sqlite
+
+# 回归测试的隔离数据目录
+.test-data/
