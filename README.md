@@ -1,9 +1,6 @@
 # MiniGPT-KB · 精简版 RAG 知识库问答系统
 
 基于 **Vue 3 + Node.js** 的检索增强生成（RAG）知识库问答系统。
-灵感来自 [dreamlee0/rag-knowledge-base](https://github.com/dreamlee0/rag-knowledge-base)，在其基础上做了大幅精简，**砍掉用户系统等非核心功能，只突出 RAG 核心链路**，便于前端同学看懂、复刻和讲进简历。
-
----
 
 ## ✨ 核心价值（简历亮点）
 
